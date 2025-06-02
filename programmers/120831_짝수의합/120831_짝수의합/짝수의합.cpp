@@ -6,7 +6,7 @@ int solution(int n)
 	int answer = 0;
 	for (int i = 2; i <= n; i += 2)
 	{
-		answer += i;
+		answer += i;   // 현재까지 더한 합에 i를 더함
 	}
 	return answer;
 }
