@@ -3,7 +3,7 @@ using namespace std;
 
 int solution(int num1, int num2)
 {
-    return num1 + num2;
+    return num1 - num2;
 }
 
 int main()
@@ -17,7 +17,7 @@ int main()
 
     int result = solution(num1, num2);
 
-    cout << "두 수의 합은: " << result << endl;
+    cout << "두 수의 차는: " << result << endl;
 
     return 0;
 }
