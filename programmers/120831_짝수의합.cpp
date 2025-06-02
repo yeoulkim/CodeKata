@@ -6,7 +6,7 @@ int solution(int n)
 	int answer = 0;
 	for (int i = 2; i <= n; i += 2)
 	{
-		answer += i;   // ÇöÀç±îÁö ´õÇÑ ÇÕ¿¡ i¸¦ ´õÇÔ
+		answer += i;   // í˜„ìž¬ê¹Œì§€ ë”í•œ í•©ì— ië¥¼ ë”í•¨
 	}
 	return answer;
 }
@@ -14,11 +14,11 @@ int solution(int n)
 int main()
 {
 	int n;
-	cout << "Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ";
+	cout << "ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”: ";
 	cin >> n;
 
 	int result = solution(n);
-	cout << n << " ÀÌÇÏÀÇ Â¦¼ö ÇÕ: " << result << endl;
+	cout << n << " ì´í•˜ì˜ ì§ìˆ˜ í•©: " << result << endl;
 
 	return 0;
 }

@@ -7,7 +7,7 @@ int solution(int n, int k)
     int free_drinks = n / 10;
     int priced_drinks = (k - free_drinks) * 2000;
 
-    if (priced_drinks < 0) priced_drinks = 0; // À½·á¼ö°¡ ¹«·á ¼­ºñ½ºº¸´Ù ÀûÀ» ¶§ À½·á ºñ¿ë 0 Ã³¸®
+    if (priced_drinks < 0) priced_drinks = 0; // ìŒë£Œìˆ˜ê°€ ë¬´ë£Œ ì„œë¹„ìŠ¤ë³´ë‹¤ ì ì„ ë•Œ ìŒë£Œ ë¹„ìš© 0 ì²˜ë¦¬
 
     return lamb_price + priced_drinks;
 }
@@ -15,14 +15,14 @@ int solution(int n, int k)
 int main()
 {
     int n, k;
-    cout << "¾ç²¿Ä¡ ¸î ÀÎºÐ? ";
+    cout << "ì–‘ê¼¬ì¹˜ ëª‡ ì¸ë¶„? ";
     cin >> n;
-    cout << "À½·á¼ö ¸î °³? ";
+    cout << "ìŒë£Œìˆ˜ ëª‡ ê°œ? ";
     cin >> k;
 
     int total = solution(n, k);
 
-    cout << "¾ç²¿Ä¡ " << n << "ÀÎºÐ, À½·á¼ö " << k << "°³¸¦ ¸ÔÀ¸¸é ÃÑ °¡°ÝÀº " << total << "¿øÀÔ´Ï´Ù." << endl;
+    cout << "ì–‘ê¼¬ì¹˜ " << n << "ì¸ë¶„, ìŒë£Œìˆ˜ " << k << "ê°œë¥¼ ë¨¹ìœ¼ë©´ ì´ ê°€ê²©ì€ " << total << "ì›ìž…ë‹ˆë‹¤." << endl;
 
     return 0;
 }
