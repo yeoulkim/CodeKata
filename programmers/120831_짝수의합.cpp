@@ -1,3 +1,6 @@
+//programmers 120831 - 짝수의 합
+// https://school.programmers.co.kr/learn/courses/30/lessons/12083
+
 #include <iostream>
 using namespace std;
 

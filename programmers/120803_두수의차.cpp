@@ -1,3 +1,6 @@
+// programmers 120803 - ë‘ ìˆ˜ì˜ ì°¨
+// https://school.programmers.co.kr/learn/courses/30/lessons/120803
+
 #include <iostream>
 using namespace std;
 
@@ -8,16 +11,16 @@ int solution(int num1, int num2)
 
 int main()
 {
-    int num1, num2;  // º¯¼ö ¼±¾ğ Ãß°¡
+    int num1, num2;  // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½
 
-    cout << "Ã¹ ¹øÂ° ¼ıÀÚ: ";
+    cout << "Ã¹ ï¿½ï¿½Â° ï¿½ï¿½ï¿½ï¿½: ";
     cin >> num1;
-    cout << "µÎ ¹øÂ° ¼ıÀÚ: ";
+    cout << "ï¿½ï¿½ ï¿½ï¿½Â° ï¿½ï¿½ï¿½ï¿½: ";
     cin >> num2;
 
     int result = solution(num1, num2);
 
-    cout << "µÎ ¼öÀÇ Â÷´Â: " << result << endl;
+    cout << "ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½: " << result << endl;
 
     return 0;
 }
