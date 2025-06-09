@@ -1,4 +1,4 @@
-// programmers 120803 - 占쎈あ 占쎈땾占쎌벥 筌∽옙
+// programmers 120803 - 두 수의 차 구하기
 // https://school.programmers.co.kr/learn/courses/30/lessons/120803
 
 #include <iostream>

@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "873809_나머지가1이되는수찾기": "cpp"
     }
 }
