@@ -6,7 +6,7 @@
 
 using namespace std;
 
-int solution(vector<int> a, vector<int b)
+int solution(vector<int> a, vector<int> b)
 {
     int answer = 0;
 
